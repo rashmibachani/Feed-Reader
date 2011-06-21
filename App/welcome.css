@@ -1,0 +1,41 @@
+#dashboard{
+	color:#F2F5ED;
+}
+
+#dashboard em{
+	font-weight:700;
+}
+
+#wrapper{
+	width:100%;
+	text-align: center;
+}
+
+#talks{
+	margin-left:30px;
+	text-align: left;	
+}
+
+#options{
+	text-align: center;
+	padding:5px;
+}
+
+td{
+	border: thick ridge #343434;
+}
+
+#options h3{
+	color:#343434;
+	font-size:1.1em;
+}
+
+#options ul{
+	list-style-type:none;
+	margin:0;
+	padding:20px;
+}
+#options a{
+	color:#343434;
+	text-decoration: none;
+}

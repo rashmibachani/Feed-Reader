@@ -1,0 +1,70 @@
+body{
+	color:#343434;
+}
+
+#dashboard p{
+	color:#F2F5ED;
+	margin:0;
+	padding:7px;
+}
+
+#dashboard p em{
+	text-decoration: none;
+	font-weight:bold;
+}
+#dashboard a{
+	color:#F2F5ED;
+	text-decoration:none;
+}
+
+#registration{
+	position:relative;
+	left:50px;
+	margin-left:auto;
+	margin-right:auto;
+	border: thick ridge #343434;
+	-moz-border-radius: 10px;
+	padding:25px;
+	text-align: left;
+	color:#343434;
+	line-height: 3em;
+}
+
+#reg p{
+	background-color:#AAAAEE;
+	padding:3px;
+	color:maroon;
+}
+input[type="submit"] {
+ color: #F2F5ED;
+ background-color: #343434;
+ font-size: 1em;
+ padding: 2px;
+ -moz-border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+ color: #F2F5ED;
+ background-color: #343434;
+ font-size: 1em;
+ padding: 2px;
+ -moz-border-radius: 4px;
+ cursor:pointer;
+}
+
+input[type="reset"]{
+ color:#F2F5ED;
+ background-color: #343434;
+ font-size: 1em;
+ padding: 2px;
+ -moz-border-radius: 4px;
+}
+
+input[type="reset"]:hover{
+ color:#F2F5ED;
+ background-color: #343434;
+ font-size: 1em;
+ padding: 2px;
+ -moz-border-radius: 4px;
+ cursor: pointer;
+}

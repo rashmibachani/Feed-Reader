@@ -1,0 +1,89 @@
+body{
+	font-family: "Segoe UI", Tahoma, "Sans-serif";
+	background-color:#F2F5ED;
+}
+
+#fullname{
+	color: #343434;
+}
+
+#wrapper{
+	padding-left:25px;
+}
+
+#userimg{
+	border: thick #666677;
+	border-style:outset;
+	position:relative;
+	left:15px;
+	height:15em;
+	width:auto;
+}
+
+#nameandpic{
+	float:left;
+	width:30%;
+	border-right: thick #F2F5ED ridge;
+	border-bottom: thick #F2F5ED ridge;
+	padding-bottom:40px;
+}
+
+#datacolumn{
+	float:left;
+	width:30%;
+	margin-left:35px;
+	border-right:thick ridge #F2F5ED;
+}
+
+#datacolumn ul h3, #friends ul h3{
+	margin-bottom:0;
+	display: inline;
+	font-size:1em;
+	font-weight:700;
+}
+
+#datacolumn ul h3 a, #friends ul h3 a{
+	color:#343434;
+
+}
+
+#datacolumn ul, #friends ul{
+	list-style-type:none;
+	display: inline;
+	text-align:left;
+	margin-top:0;
+	margin-left:0;
+}
+
+#datacolumn ul ul, #friends ul ul{
+	margin-left:0;
+	padding-left:0;
+	text-align:left;
+	display:inline;
+	color:#343434;
+	font-size:0.9em;
+	line-height: 1.5em;
+}
+
+#datacolumn ul ul a, #friends ul ul a{
+	color:#343434;
+	text-decoration:none;
+}
+
+#datacolumn ul ul a:hover, #friends ul ul a:hover{
+	color:#343434;
+	text-decoration:underline;
+}
+
+#friends{
+	width:20%;
+	float:left;
+	margin-left:40px;
+}
+
+#footer {
+ clear: both;
+ padding-bottom: 1em;
+ border-top: 1px solid #333;
+ text-align: center;
+} 

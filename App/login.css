@@ -1,0 +1,27 @@
+body{
+	background-color: #F2F5ED;
+	font-family: "Segoe UI", tahoma;
+	color:#343434;
+	text-align: center;
+}
+
+a{
+	color:#343434;
+}
+
+#loginform{
+	position:relative;
+	top:50px;
+	margin-left:auto;
+	margin-right: auto;
+	border: thick ridge #343434;
+	padding:20px;
+	line-height: 3em;
+	-moz-border-radius: 15px;
+	width:35%;	
+}
+
+#reg{
+	position:relative;
+	top:70px;
+}

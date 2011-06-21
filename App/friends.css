@@ -1,0 +1,38 @@
+#wrapper{
+	text-align: center;
+}
+
+
+#wrapper td{
+	border:thick #F2F5ED groove;
+}
+
+#friendslist a{
+	color:#343434;
+	text-decoration: none;
+	line-height: 1em;
+	text-align: center;
+}
+
+#friendslist a:hover{
+	color:#343434;
+	text-decoration: underline;
+	line-height: 1em;
+	text-align: center;
+}
+
+#friendslist img{
+	width:50px;
+	height:auto;
+}
+
+#friendslist ul{
+	list-style-type: none;
+	padding:0;
+	margin:10px;
+	text-align: center;
+} 
+
+#friendslist li{
+	margin-top:20px;
+}

@@ -1,0 +1,137 @@
+body{
+	font-family: "Segoe UI", Tahoma;
+	background-color:#F2F5ED;
+}
+
+body p{
+	line-height: 1.5em;
+}
+
+#dashboard{
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	width:inherit;
+	
+	border-top:none;
+	height: 35px;
+	z-index: 10;
+	padding:3px;
+	background-color:#343434;
+	font-size: 0.8em;
+}
+
+#addsub{
+	position:relative;
+	width:40%;
+	margin:0;
+	float:left;
+	padding:0;
+}
+
+#functions{
+	float:right;
+	color:#343434;
+	margin:0;
+	padding:0;
+}
+
+#functions ul{
+	list-style-type: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#functions ul li{
+	display: inline;
+	margin:10px;
+	border-bottom: none;
+}
+
+#functions ul li a, .dba{
+	text-decoration:none;
+	color:#F2F5ED;
+}
+
+#functions ul li a:hover, .dba:hover{
+	text-decoration: underline;
+}
+
+#wrapper{
+	margin:0;
+	position:absolute;
+	top:50px;
+	left:0;
+	background-color:#f2f5ed;
+	height:auto;
+	width:auto;
+}
+
+#readingarea{
+	float:left;
+	width: 75%;
+	margin:10px;
+	color:#343434;
+	text-align: justify;
+}
+
+#readingarea ul{
+	list-style-type: none;
+	display: inline;
+}
+
+#readingarea ul li{
+	border-bottom: thin #F2F5ED ridge;	
+}
+
+#readingarea ul li h6{
+	font-size: 1em;
+	text-decoration: underline;
+	margin:0;
+	padding:0;
+	margin-top:5px;
+	padding-top:5px;
+}
+
+#readingarea ul li p{
+	margin-top:5px;
+	margin-bottom:10px;
+	padding:0;	
+}
+
+#menu{
+	position:relative;
+	top:12px;
+	float:right;
+	width:15%;
+	font-size: 0.9em;
+	line-height:1.4em;
+    border-left: thin #343434 ridge;
+    height:auto;
+}
+
+#menu ul{
+	list-style-type:none;
+	margin-left:0;
+	padding-left:0;
+	display: inline;
+	text-align:center;
+}
+
+#menu ul li{
+	
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color:#343434;
+}
+
+#menu ul li a:hover{
+	text-decoration: underline;
+}
+
+#footer{
+	clear:both;
+}
